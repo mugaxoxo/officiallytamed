@@ -1256,7 +1256,13 @@ ng-controller="poweredBy.poweredByController"
 ng-mouseenter="announceActivityChange(true)"
 ng-mouseleave="announceActivityChange(false)">
 <!-- BEGIN: Powered By Tag -->
-
+<a
+class="mobile-powered-by"
+ng-class="{ 'active': isActive }"
+href="http://www.invisionapp.com/?utm_medium=virality&utm_source=Share%20CTA"
+target="_blank">
+made with InVision
+</a>
 <!-- END: Powered By Tag -->
 </div>
 </script><script type="text/ng-template" id="/assets/apps/share/views/powered-by/powered-by.htm"><!-- Hide this object for all Shopify Enterprise project shares. ( companyID 71 ).  Everyone else should see it. -->
